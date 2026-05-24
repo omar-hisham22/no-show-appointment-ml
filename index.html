@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>No Show Prediction</title>
+</head>
+
+<body>
+    <h2>Hospital Appointment Prediction</h2>
+
+    <form action="/predict" method="post">
+
+        Age: <input type="text" name="age"><br><br>
+        Gender: <input type="text" name="gender"><br><br>
+        Neighbourhood: <input type="text" name="neighbourhood"><br><br>
+        Scholarship: <input type="text" name="scholarship"><br><br>
+        Hipertension: <input type="text" name="hipertension"><br><br>
+        Diabetes: <input type="text" name="diabetes"><br><br>
+        Alcoholism: <input type="text" name="alcoholism"><br><br>
+        Handcap: <input type="text" name="handcap"><br><br>
+        SMS Received: <input type="text" name="sms"><br><br>
+        Waiting Days: <input type="text" name="waitingdays"><br><br>
+        Week Day: <input type="text" name="weekday"><br><br>
+        Age Group: <input type="text" name="agegroup"><br><br>
+
+        <input type="submit" value="Predict">
+
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
