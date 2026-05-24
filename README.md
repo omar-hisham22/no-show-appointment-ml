@@ -10,36 +10,40 @@ The system helps hospitals reduce missed appointments, optimize scheduling, and 
 ## 🎯 Objective
 The main goal of this project is to build a predictive model that identifies patients who are likely to not attend their scheduled appointments using features such as:
 
-- Age
-- Gender
-- Neighborhood
-- Medical conditions (Hypertension, Diabetes, Alcoholism, Handicap)
-- SMS reminders
-- Waiting time
-- Appointment day
-- Socio-economic indicators (Scholarship)
+- Age  
+- Gender  
+- Neighborhood  
+- Medical conditions (Hypertension, Diabetes, Alcoholism, Handicap)  
+- SMS reminders  
+- Waiting time  
+- Appointment day  
+- Socio-economic indicators (Scholarship)  
 
 ---
 
 ## 🧠 Machine Learning Approach
 
 ### 📊 Data Preprocessing
-- Handling missing values
-- Encoding categorical variables
-- Feature engineering (e.g., Age Groups, Waiting Days)
-- Data normalization where required
+- Handling missing values  
+- Encoding categorical variables  
+- Feature engineering (e.g., Age Groups, Waiting Days)  
+- Data normalization where required  
+
+---
 
 ### 🤖 Models Used
-- Random Forest Classifier
-- Decision Tree Classifier
-- StandardScaler for feature scaling
+- Random Forest Classifier  
+- Decision Tree Classifier  
+- StandardScaler for feature scaling  
 
-### 📈 Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
+---
+
+## 📈 Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+- Confusion Matrix  
 
 ---
 
@@ -47,42 +51,51 @@ The main goal of this project is to build a predictive model that identifies pat
 A Flask-based web application was developed to provide an interactive user interface.
 
 ### Features:
-- User input form for patient details
-- Real-time prediction of no-show probability
-- Simple and clean UI using HTML templates
+- User input form for patient details  
+- Real-time prediction of no-show probability  
+- Simple and clean UI using HTML templates  
 
 ### Technologies:
-- Python
-- Flask
-- HTML / CSS
-- Scikit-learn
-- Pandas
-- NumPy
-- Joblib
+- Python  
+- Flask  
+- HTML / CSS  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- Joblib  
 
 ---
 
 ## 📷 Project Visualizations
 The following visualizations were generated during analysis:
 
-- Correlation Heatmap
-- Count Plots (No-show distribution)
-- Feature Importance Plot (from Random Forest)
-- Data distribution graphs
+- Correlation Heatmap  
+- Count Plots (No-show distribution)  
+- Feature Importance Plot (from Random Forest)  
+- Data distribution graphs  
 
 ---
 
 ## ⚠️ Important Notes
-- The model is trained on historical data and predictions are probabilistic, not absolute.
-- Model version compatibility between scikit-learn versions may affect loading saved models.
+- The model is trained on historical data, and predictions are probabilistic, not absolute.  
+- Model version compatibility between scikit-learn versions may affect loading saved models due to serialization differences.  
+
+---
+
+## 🎥 Presentation Video
+You can watch the full project presentation here:
+
+👉 https://drive.google.com/file/d/1_7GGlB_3l_cgfuCVIAnBS1W0NIk5VJtl/view?usp=sharing
 
 ---
 
 ## 👨‍💻 Authors
-- **Omar Hisham**
+**Omar Hisham**
 
-- **Under Supervision of:**
-  - Dr. Mohamed El Sayah
+---
+
+## 👨‍🏫 Under Supervision Of
+**Dr. Mohamed El Sayeh**
 
 ---
 
